@@ -54,7 +54,8 @@ class GameFragment : Fragment() {
                 container,
                 false
         )
-
+        Log.i("GameFragment", "Called ViewModelProviders.of")
+        viewModel = ViewModelProviders.of(this).get(GameViewModel::class.java)
 
         resetList()
         nextWord()
