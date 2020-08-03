@@ -98,6 +98,7 @@ class GameFragment : Fragment() {
         wordList.shuffle()
     }
 
+
     /** Methods for buttons presses **/
 
     private fun onSkip() {
